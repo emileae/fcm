@@ -429,9 +429,11 @@ height: 20%;
 position: relative;
 bottom: 0%;
 animation:floater1 5s;
--webkit-animation:floater1 5s; /* Safari and Chrome */
+/*-webkit-animation:floater1 5s; /* Safari and Chrome */
 animation-iteration-count: infinite;
 -webkit-animation-iteration-count: infinite;
+-webkit-animation-name: floater1;
+-webkit-animation-duration: 5s;
 }
 
 @keyframes floater1
@@ -447,9 +449,11 @@ animation-iteration-count: infinite;
 position: relative;
 bottom: 10%;
 animation:floater2 5s;
--webkit-animation:floater2 5s; /* Safari and Chrome */
+/*-webkit-animation:floater2 5s; /* Safari and Chrome */
 animation-iteration-count: infinite;
 -webkit-animation-iteration-count: infinite;
+-webkit-animation-name: floater2;
+-webkit-animation-duration: 5s;
 }
 
 @keyframes floater2
