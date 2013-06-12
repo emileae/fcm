@@ -9,8 +9,8 @@ $(window).load(function(){
             }, 0);
         });
         
-        var numImgs = $('img').length;
-        alert(numImgs);
+        //var numImgs = $('img').length;
+        //alert(numImgs);
         
         myScroll.refresh();
         page1Scroll.refresh();
