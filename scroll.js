@@ -45,10 +45,10 @@ page5Scroll = new iScroll('wrapper_pg5', {hScrollbar: false, vScrollbar: true, l
 page6Scroll = new iScroll('wrapper_pg6', {hScrollbar: false, vScrollbar: true, lockDirection: true });
 page7Scroll = new iScroll('wrapper_pg7', {hScrollbar: false, vScrollbar: true, lockDirection: true });
 page8Scroll = new iScroll('wrapper_pg8', {hScrollbar: false, vScrollbar: true, lockDirection: true });
-page8Scroll = new iScroll('wrapper_pg9', {hScrollbar: false, vScrollbar: true, lockDirection: true });
-page8Scroll = new iScroll('wrapper_pg10', {hScrollbar: false, vScrollbar: true, lockDirection: true });
-page8Scroll = new iScroll('wrapper_pg11', {hScrollbar: false, vScrollbar: true, lockDirection: true });
-page8Scroll = new iScroll('wrapper_pg12', {hScrollbar: false, vScrollbar: true, lockDirection: true });
+page9Scroll = new iScroll('wrapper_pg9', {hScrollbar: false, vScrollbar: true, lockDirection: true });
+page10Scroll = new iScroll('wrapper_pg10', {hScrollbar: false, vScrollbar: true, lockDirection: true });
+page11Scroll = new iScroll('wrapper_pg11', {hScrollbar: false, vScrollbar: true, lockDirection: true });
+page12Scroll = new iScroll('wrapper_pg12', {hScrollbar: false, vScrollbar: true, lockDirection: true });
 
 /*SPRITESPIN*/
     
