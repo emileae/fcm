@@ -33,7 +33,7 @@ $(document).ready(function(){
                 </div>\
             ');
             
-            imgScroll = new iScroll('popup_scroll', {hScrollbar: false, vScrollbar: false,  zoom: true });
+            imgScroll = new iScroll('popup_scroll', {hScrollbar: false, vScrollbar: false,  zoom: true, zoomMax: 10 });
             
         }else{
             $('body').append('<div id="full_overlay"></div>\
@@ -50,10 +50,18 @@ $(document).ready(function(){
     $('body').on('tap click', '#full_overlay', function(){
         $('#full_overlay').remove();
         $('#overlay_content').remove();
+        popupScroll.destroy();
+        popupScroll = null;
+        imgScroll.destroy();
+        imgScroll = null;
     });
     $('body').on('tap click', '.close_x', function(){
         $('#full_overlay').remove();
         $('#overlay_content').remove();
+        popupScroll.destroy();
+        popupScroll = null;
+        imgScroll.destroy();
+        imgScroll = null;
     });
     
 });
