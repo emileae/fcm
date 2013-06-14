@@ -59,15 +59,6 @@ $(document).ready(function(){
             ');
     };
     
-    $('body').on('tap click', '#full_overlay', function(){
-        $('#full_overlay').remove();
-        $('#overlay_content').remove();
-    });
-    $('body').on('tap click', '.close_x', function(){
-        $('#full_overlay').remove();
-        $('#overlay_content').remove();
-    });
-    
     //Handling product clicks
     //var $product_li = $('.product_list').children('li');
     $('body').on('tap click', '.product_img', function(){

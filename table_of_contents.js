@@ -16,18 +16,16 @@ $(document).ready(function(){
        $('#toc_tab').css('transition', 'top 0.5s ease-in-out');
        $('.toc_marker').addClass('toc_marker_slidein');
        $('.toc_marker').removeClass('toc_marker');
-       $('.toc_marker_slidein').html('HIDE');
     };
     
     function hide_tab(){
-        $('#toc_tab').css('top', '-90px');
+        $('#toc_tab').css('top', '-70px');
        $('#toc_tab').css('-moz-transition', 'top 0.5s ease-in-out');
        $('#toc_tab').css('-webkit-transition', 'top 0.5s ease-in-out');
        $('#toc_tab').css('-o-transition', 'top 0.5s ease-in-out');
        $('#toc_tab').css('transition', 'top 0.5s ease-in-out');
        $('.toc_marker_slidein').addClass('toc_marker');
        $('.toc_marker_slidein').removeClass('toc_marker_slidein');
-       $('.toc_marker').html('TOC');
     };
     
     
